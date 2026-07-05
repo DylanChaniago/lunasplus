@@ -118,6 +118,13 @@
       showToast("Ini akun demo — hubungi admin/dosen untuk kredensial.", "info");
     });
 
+    document.getElementById("autofillDemoBtn").addEventListener("click", () => {
+      document.getElementById("loginEmail").value = DEMO_USER.email;
+      document.getElementById("loginPassword").value = DEMO_USER.password;
+      clearLoginError();
+      showToast("Kredensial demo terisi otomatis.", "info");
+    });
+
     const logoutHandler = () => {
       logout();
       showLogin();

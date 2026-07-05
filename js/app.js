@@ -1062,9 +1062,9 @@
 
   function initMisc() {
     document.getElementById("resetSaldoBtn").addEventListener("click", () => {
-      setSaldo(1500000);
+      setSaldo(10000000);
       renderDashboard();
-      showToast("Saldo simulasi direset ke Rp1.500.000.", "success");
+      showToast("Saldo simulasi direset ke Rp10.000.000.", "success");
     });
   }
 

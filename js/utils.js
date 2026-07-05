@@ -50,8 +50,8 @@ function addTransaction(tx) {
 function getSaldo() {
   const val = localStorage.getItem(STORAGE_KEYS.saldo);
   if (val === null) {
-    localStorage.setItem(STORAGE_KEYS.saldo, "1500000");
-    return 1500000;
+    localStorage.setItem(STORAGE_KEYS.saldo, "10000000");
+    return 10000000;
   }
   return Number(val);
 }

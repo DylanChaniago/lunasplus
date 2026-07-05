@@ -118,6 +118,11 @@ Logo **Lunas+** berupa monogram centang (melambangkan "lunas"/tuntas bayar) yang
 - `assets/favicon.svg` — ikon dengan latar (dipakai sebagai favicon tab browser)
 - `assets/logo.svg` — logo lockup (ikon + wordmark) untuk keperluan dokumentasi/presentasi
 
+## 🆕 Penyempurnaan Lanjutan (v5)
+
+- **Kredensial demo ditampilkan langsung** di halaman login (email + kata sandi), lengkap dengan tombol "Isi otomatis" — memudahkan saat demo/presentasi ke dosen tanpa perlu mengetik manual.
+- **Saldo simulasi default diubah menjadi Rp10.000.000** (sebelumnya Rp1.500.000), termasuk saat direset lewat halaman Profil.
+
 ## 🆕 Penyempurnaan Lanjutan (v4)
 
 - **Badge provider didesain ulang** — lencana Telkomsel/XL/Indosat/Tri/Smartfren/Axis kini bergaya gradient premium dengan warna khas masing-masing operator, bukan lagi kotak polos. *(Catatan: ini bukan logo resmi operator — menghindari reproduksi trademark — melainkan lencana warna+inisial bergaya sendiri yang tetap mudah dikenali.)*
